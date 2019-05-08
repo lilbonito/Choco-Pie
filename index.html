@@ -3,14 +3,18 @@
         <head>
             <title>Delicious: The Best Food Blog On The Web.</title>
             <link href="reset.css" ref="stylesheet">
-            <link rel="stylesheet" type="text/css" href="css/style.css">
+            <link rel="stylesheet" type="text/css" href="style.css">
             <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
         </head>
+           
+        <body>    
+             <div class="head-wrapper">
                 <div class="headers">
-                        <img id="logo" src= "assets/logo.png">
-                        <h1>Delicious</h1>
-                        <h6>the best food blog on the web.</h6>                           
+                <img id="logo" src= "assets/logo.png">
+                <h1>Delicious</h1>
+                <h6>THE BEST FOOD BLOG ON THE WEB.</h6>   
+                </div>                        
             </div>
                 <div class="social-media">
                 <img src="assets/fb-icon.png">
@@ -23,22 +27,33 @@
                 <img src="assets/mail-icon.png">
              </div>
                 <hr>
-
-                 <div id="p rint">
+                 <div class="print">
                     <img src="assets/print-icon.png">
-                    <span id="print-letters">PRINT</span>
+                    <span>PRINT</span>
                 </div>
-        <body>    
             </div>
+                <div class="pizza-wrapper">
                     <h2>Chocolate Pizza</h2>
                     <h3>Posted on 15 dec 2013/ desserts</h3>  
-                
+                </div>
                 <img id="pizza" src="assets/choco-pizza.png">
-                <article>
-
-                </article>  
-                <div id="recipe">
-                        <div id="listTextLeft">
+                <div class="recipe">
+                        <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all
+                        of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frewuently, until
+                        you have a chunly-jammy mixture. Add salt with one or two stirs, set aside and let cool completley.</p>
+                            
+                        <p>Ice Cream: in a small pot over medium heat, combine milk, and granulated sugar until sugar is completley
+                        dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the
+                        fig mixture is cooled.</p>
+                        
+                        <p>Using an ice cream machine, pour liquids into the frozen basin and process according to the manufacturer
+                        instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts.
+                        Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for
+                        at least two hours before serving.</p>  
+                </div>    
+                        <img id="list-box" src="assets/list-bg.png">
+                    <div class="list-wrapper">   
+                        <div id="list-text-left">
                             <ul><strong>
                             <ol><input type="checkbox">1 1/2 cups of milk</ol>
                         <ol><input type="checkbox">1/2 cup of mascarpone</ol>
@@ -48,53 +63,33 @@
                         <ol><input type="checkbox">2-4 tbsp water</ol>
                     </ul>
                         </div>
-                     <div id="listTextRight">
-                         <ul>
-                                <ol><input type="checkbox">1 1/2 cups of Heavy Cream</ol>
-                                <ol><input type="checkbox"><s>1/3 granulated sugar</s></ol>
-                                <ol><input type="checkbox"><s>2 egg yolks</s></ol>
-                                <ol><input type="checkbox">1 lemon, juiced</ol>
-                                <ol><input type="checkbox">2 tbsp butter</ol>
-                                <ol><input type="checkbox">1 cup honey roasted pecans, roughly<br>
-                                chopped</ol>
-                            </strong></ul>
-                     </div>
-                     <div class="ingredients">
-                     <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all
-                            of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frewuently, until
-                        you have a chunly-jammy mixture. Add salt with one or two stirs, set aside and let cool completley.</p>
-                        
-                        <p>Ice Cream: in a small pot over medium heat, combine milk, and granulated sugar until sugar is completley
-                        dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the
-                     fig mixture is cooled.</p>
-                     
-                     <p>Using an ice cream machine, pour liquids into the frozen basin and process according to the manufacturer
-                     instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts.
-                     Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for
-                     at least two hours before serving.</p>  
-                    </div>
-                                
-                    </div>
-                        <img id="list" src="assets/list-bg.png">
-                    </div>
-                    
-                          
-                    
-                </body>
-                 <hr>
-                 <footer>
-                    <img id="person" src="assets/van-pic.png">
-                    <button class="button-xlarge pure-button">SHARE RECIPE</button>
-                    </div>
+                    <div id="list-text-right">
+                        <ul>
+                        <ol><input type="checkbox">1 1/2 cups of Heavy Cream</ol>
+                        <ol><input type="checkbox"><s>1/3 granulated sugar</s></ol>
+                        <ol><input type="checkbox"><s>2 egg yolks</s></ol>
+                        <ol><input type="checkbox">1 lemon, juiced</ol>
+                        <ol><input type="checkbox">2 tbsp butter</ol>
+                        <ol><input type="checkbox">1 cup honey roasted pecans, roughly
+                        chopped</ol>
+                        </strong></ul>
+                    </div> 
+                </div>              
+         </body>
                  
-                    <h3 id="name">Vanessa Stevenson
-                        <p id="nametext">Food Enthusisat, photography fan. Add a pinch of raw foodism and that's<br>
-                         pretty much who I am.</p>
-                    </h3>
-               
+                 <footer>
+                    <hr>
+                    <div class="vanessa-wrapper">
+                        <img id="person" src="assets/van-pic.png">
+                        <p id="name">Vanessa Stevenson</p>
+                        <span class="button">SHARE RECIPE</span>
+                        <p id="about-me">
+                        Food Enthusisat, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+                    </div>
                     <img id="sm-logo" src="assets/small-logo.png">
-                     <p id="copyright">Delicious C 2013 - All Rights Reserved.<br>
-                    Proudly published with Ghost.</p>
+                        <p id="copyright">
+                        Delicious C 2013 - All Rights Reserved.
+                        Proudly published with Ghost.
                  </footer>
                  
                  </html>
